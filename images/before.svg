@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b2e36"/>
+      <stop offset="1" stop-color="#16171b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <ellipse cx="400" cy="592" rx="260" ry="24" fill="#000" opacity=".3"/>
+
+  <!-- legs -->
+  <path d="M292 440L280 600H388L398 470Z" fill="#a97b5c"/>
+  <path d="M508 440L520 600H412L402 470Z" fill="#a97b5c"/>
+
+  <!-- arms -->
+  <g stroke="#b98b69" stroke-width="46" stroke-linecap="round" fill="none">
+    <path d="M290 210C262 262 244 340 238 420"/>
+    <path d="M510 210C538 262 556 340 562 420"/>
+  </g>
+
+  <!-- torso -->
+  <path d="M288 196C335 180 465 180 512 196C540 250 552 330 540 392C534 425 524 440 516 456H284C276 440 266 425 260 392C248 330 260 250 288 196Z" fill="#b98b69"/>
+  <path d="M326 376Q400 432 474 376" stroke="#8f6648" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="400" cy="372" r="5" fill="#8f6648"/>
+
+  <!-- shorts -->
+  <path d="M284 430H516L524 524L412 508L400 482L388 508L276 524Z" fill="#3b3f48"/>
+
+  <!-- neck + head -->
+  <rect x="372" y="148" width="56" height="56" rx="14" fill="#a97b5c"/>
+  <circle cx="400" cy="112" r="50" fill="#b98b69"/>
+  <path d="M352 102C356 62 444 62 448 102C430 84 370 84 352 102Z" fill="#17130f"/>
+</svg>

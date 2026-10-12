@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d2509"/>
+      <stop offset=".55" stop-color="#101114"/>
+      <stop offset="1" stop-color="#0a0a0c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#c6ff3d" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#c6ff3d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="450" r="400" fill="url(#glow)"/>
+
+  <!-- floor perspective -->
+  <g stroke="#c6ff3d" stroke-opacity=".1">
+    <path d="M0 880H800M0 925H800M0 965H800"/>
+    <path d="M400 840L-200 1000M400 840L0 1000M400 840L200 1000M400 840L600 1000M400 840L800 1000M400 840L1000 1000"/>
+  </g>
+
+  <!-- legs -->
+  <path d="M308 740L286 1000H392L398 770Z" fill="#23262c"/>
+  <path d="M492 740L514 1000H408L402 770Z" fill="#2b2f36"/>
+
+  <!-- shorts -->
+  <path d="M298 640H502L520 800L412 780L400 745L388 780L280 800Z" fill="#c6ff3d"/>
+  <path d="M298 640H502L506 668H294Z" fill="#0a0a0c" fill-opacity=".85"/>
+
+  <!-- arms (behind torso) -->
+  <g stroke="#2b2f36" stroke-linecap="round" stroke-linejoin="round" stroke-width="50">
+    <path d="M262 428L204 322L234 208"/>
+    <path d="M538 428L596 322L566 208"/>
+  </g>
+
+  <!-- torso -->
+  <path d="M262 410C310 385 490 385 538 410L522 560C518 600 504 640 496 660H304C296 640 282 600 278 560Z" fill="#2b2f36"/>
+  <circle cx="266" cy="428" r="44" fill="#2b2f36"/>
+  <circle cx="534" cy="428" r="44" fill="#2b2f36"/>
+
+  <!-- muscle definition -->
+  <g stroke="#0a0a0c" stroke-opacity=".55" stroke-width="5" stroke-linecap="round">
+    <path d="M400 432V652"/>
+    <path d="M338 500Q400 524 462 500"/>
+    <path d="M345 560H455"/>
+    <path d="M350 606H450"/>
+  </g>
+
+  <!-- rim light -->
+  <g stroke="#c6ff3d" stroke-opacity=".75" stroke-width="3" stroke-linecap="round">
+    <path d="M262 412C248 450 268 560 280 604"/>
+    <path d="M182 330L214 224"/>
+    <path d="M538 412C552 450 532 560 520 604" stroke-opacity=".3"/>
+  </g>
+
+  <!-- neck + head -->
+  <rect x="372" y="352" width="56" height="52" rx="14" fill="#23262c"/>
+  <circle cx="400" cy="318" r="50" fill="#2b2f36"/>
+  <path d="M352 304Q400 280 448 304" stroke="#c6ff3d" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- barbell -->
+  <line x1="40" y1="196" x2="760" y2="196" stroke="#d4d8de" stroke-width="12" stroke-linecap="round"/>
+  <rect x="88" y="104" width="36" height="184" rx="10" fill="#c6ff3d"/>
+  <rect x="130" y="126" width="26" height="140" rx="8" fill="#9ad92c"/>
+  <rect x="676" y="104" width="36" height="184" rx="10" fill="#c6ff3d"/>
+  <rect x="644" y="126" width="26" height="140" rx="8" fill="#9ad92c"/>
+  <circle cx="234" cy="204" r="26" fill="#2b2f36"/>
+  <circle cx="566" cy="204" r="26" fill="#2b2f36"/>
+
+  <!-- sparks -->
+  <g fill="#c6ff3d">
+    <circle cx="120" cy="520" r="4" opacity=".7"/>
+    <circle cx="690" cy="470" r="5" opacity=".6"/>
+    <circle cx="640" cy="760" r="3" opacity=".7"/>
+    <circle cx="150" cy="740" r="3" opacity=".5"/>
+    <circle cx="700" cy="620" r="2.5" opacity=".6"/>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#27310c"/>
+      <stop offset="1" stop-color="#101114"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".45" r=".5">
+      <stop offset="0" stop-color="#c6ff3d" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#c6ff3d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <circle cx="400" cy="300" r="320" fill="url(#glow)"/>
+  <ellipse cx="400" cy="592" rx="260" ry="24" fill="#000" opacity=".3"/>
+
+  <!-- legs -->
+  <path d="M312 450L290 600H390L398 480Z" fill="#a97b5c"/>
+  <path d="M488 450L510 600H410L402 480Z" fill="#a97b5c"/>
+
+  <!-- arms -->
+  <g stroke="#bd8f6c" stroke-width="56" stroke-linecap="round" fill="none">
+    <path d="M276 216C236 270 214 340 212 410"/>
+    <path d="M524 216C564 270 586 340 588 410"/>
+  </g>
+
+  <!-- torso (V taper) -->
+  <path d="M266 206C320 184 480 184 534 206C526 284 500 344 482 462H318C300 344 274 284 266 206Z" fill="#bd8f6c"/>
+  <circle cx="288" cy="226" r="40" fill="#bd8f6c"/>
+  <circle cx="512" cy="226" r="40" fill="#bd8f6c"/>
+
+  <!-- definition -->
+  <g stroke="#8a5f40" stroke-opacity=".8" stroke-width="5" stroke-linecap="round">
+    <path d="M400 236V452"/>
+    <path d="M334 290Q400 312 466 290"/>
+    <path d="M346 352H454"/>
+    <path d="M350 396H450"/>
+    <path d="M356 436H444"/>
+  </g>
+
+  <!-- shorts -->
+  <path d="M312 442H488L504 530L410 514L400 490L390 514L296 530Z" fill="#14151a"/>
+  <path d="M312 442H488L490 462H310Z" fill="#c6ff3d"/>
+
+  <!-- neck + head -->
+  <rect x="372" y="150" width="56" height="58" rx="14" fill="#a97b5c"/>
+  <circle cx="400" cy="112" r="50" fill="#bd8f6c"/>
+  <path d="M352 102C356 62 444 62 448 102C430 84 370 84 352 102Z" fill="#17130f"/>
+</svg>
